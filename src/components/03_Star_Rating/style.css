@@ -1,0 +1,26 @@
+/* Center the star rating on the page */
+body {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center; /* vertically center */
+  height: 100vh; /* take full screen height */
+  margin: 0;
+  background-color: #f9f9f9; /* optional: light background */
+}
+
+/* Star rating container */
+.star-rating {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+/* Active & inactive star colors */
+.star-rating .active {
+  color: gold;
+}
+
+.star-rating .inactive {
+  color: #ccc;
+}
