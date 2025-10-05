@@ -6,6 +6,8 @@ import LoadMoreData from "./components/05_Load_More_Data/LoadMoreData";
 import TreeView from "./components/06_Tree-view/TreeView";
 import RandomColor from "./components/02_RandomColor/Simplified";
 import QRCodeGenerator from "./components/07_QR_Generator/QRCodeGenerator";
+import LightDarkMode from "./components/08_Light_Dark_Mode/LightDarkMode";
+import WithoutUsedefine from "./components/08_Light_Dark_Mode/WithoutUsedefine";
 //import RandomeColor from "./components/2_RandomColor";
 // import Index from "./components/1_accordian";
 
@@ -23,7 +25,9 @@ function App() {
 
       {/* <LoadMoreData /> */}
       {/* <TreeView menus={menus} /> */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+      {/* <LightDarkMode /> */}
+      <WithoutUsedefine />
     </>
   );
 }

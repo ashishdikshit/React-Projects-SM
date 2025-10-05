@@ -24,6 +24,7 @@ const QRCodeGenerator = () => {
             width: "250px",
             fontSize: "16px",
             marginRight: "10px",
+            marginBottom: "10px",
           }}
         />
         <button
@@ -32,6 +33,7 @@ const QRCodeGenerator = () => {
           style={{
             padding: "10px 20px",
             fontSize: "16px",
+             marginBottom: "10px",
           }}
         >
           Generate
