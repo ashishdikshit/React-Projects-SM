@@ -17,7 +17,10 @@ const Index = () => {
     let cpyMultiple = [...multiple]; // Here this line of code is used to copy the array
     const findIndexOfcurrentId = cpyMultiple.indexOf(getCurrentId); // Here this line of code is used to find the index of the current id
     console.log(findIndexOfcurrentId);
-    if (findIndexOfcurrentId === -1) cpyMultiple.push(getCurrentId); // Here this line of code is used to push the current id
+    if (findIndexOfcurrentId === -1)
+      cpyMultiple.push(
+        getCurrentId
+      ); // Here this line of code is used to push the current id
     else cpyMultiple.splice(findIndexOfcurrentId, 1);
 
     setMultiple(cpyMultiple);
@@ -53,7 +56,7 @@ const Index = () => {
                   )}
               {/* {selected === dataItem.id ? (
                 <div className="acc-content ">{dataItem.answer}</div>
-              ) : null} */} 
+              ) : null} */}
 
               {/* {selected === dataItem.id || multiple.indexOf(dataItem.id) !== -1? (
                 <div className="acc-content ">{dataItem.answer}</div>
